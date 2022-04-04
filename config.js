@@ -19,7 +19,7 @@ DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBU
 module.exports = {
     VERSION: 'v8.0.0',
     CHANNEL: 'https://t.me/remasterplugin',
-    SESSION: process.env.LUSIFAR_SESSION === undefined ? '' : process.env.LUSIFAR_SESSION,
+    SESSION: process.env.ELSA_SESSION === undefined ? '' : process.env.ELSA_SESSION,
     SONGD: process.env.SONGD === undefined ? 'ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ꜱᴏɴɢ' : process.env.SONGD,
     SONGU: process.env.SONGU === undefined ? 'ᴜᴘʟᴏᴀᴅɪɴɢ ꜱᴏɴɢ' : process.env.SONGU,
     ANTIBAD: process.env.ANTIBAD === undefined ? 'true' : process.env.ANTIBAD,
