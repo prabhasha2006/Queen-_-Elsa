@@ -1,6 +1,6 @@
 {
     "name": "Queen Elsa powerd by K.Prabhasha",
-    "description": "Queen Elsa bot - created by Kumuthu. World’s first UserBot made for WhatsApp.",
+    "description": "Queen Elsa bot - created by Kumuthu. World’s first UserBot made for WhatsApp.\n copy from @kavishkaya",
     "logo": "https://i.ibb.co/JHn7vX1/IMG-20220331-WA0040.jpg",
     "keywords": ["whatsapp", "userbot", "Lusifar", "lusifar", "bot", "api", "ai"],
     "repository": "https://github.com/prabhasha2006/Queen-_-Elsa",
@@ -8,7 +8,7 @@
     "success_url": "under maintenance",
     "stack": "container",
     "env": {
-        "LUSIFAR_SESSION": {
+        "ELSA_SESSION": {
             "description": "Qr.Js ile oluşturduğunuz özel session kodu. Type here yours Elsa Session.",
             "required": true
         },
