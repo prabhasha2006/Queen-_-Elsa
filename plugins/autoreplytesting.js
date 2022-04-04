@@ -63,6 +63,8 @@ const KKK18 = "🥰බායි"
 const KKK19 = "🥰කුමුතු හොඳ ළමයෙක්..! ඔයාලත් කුමුතු වගේ හැදෙන්න.🤭🤭"
 const KKK20 = "🥰ප්‍රභාෂ හොඳ ළමයෙක්..! ඔයාලත් ප්‍රභාෂ වගේ හැදෙන්න.🤭🤭"
 const KKK21 = "🥰I Love You Baby❤️🥺🤭"
+const KKK22 = "🤭නිකං ඉන්න එපා, ඇඳුමක් ඇඳගන්න...😂💔"
+
 
 
 lusifar.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
@@ -413,6 +415,10 @@ lusifar.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (me
         let regex334 = new RegExp('ප්‍රභාෂ')
         let regex335 = new RegExp('love')
         let regex336 = new RegExp('ලව්')
+        let regex337 = new RegExp('nikan')
+        let regex338 = new RegExp('Nikan')
+        let regex339 = new RegExp('නිකං')
+        let regex340 = new RegExp('නිකන්')
 
 
 
@@ -1760,10 +1766,29 @@ lusifar.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (me
     }
     else if (regex335.test(message.message)) {
         await message.client.sendMessage(message.jid,KKK21, MessageType.text, {quoted: message.data })
+    
     }
     else if (regex336.test(message.message)) {
         await message.client.sendMessage(message.jid,KKK21, MessageType.text, {quoted: message.data })
+    
     }
+    else if (regex337.test(message.message)) {
+        await message.client.sendMessage(message.jid,KKK22, MessageType.text, {quoted: message.data })
+    
+    }
+    else if (regex338.test(message.message)) {
+        await message.client.sendMessage(message.jid,KKK22, MessageType.text, {quoted: message.data })
+    
+    }
+    else if (regex339.test(message.message)) {
+        await message.client.sendMessage(message.jid,KKK22, MessageType.text, {quoted: message.data })
+    
+    }
+    else if (regex340.test(message.message)) {
+        await message.client.sendMessage(message.jid,KKK22, MessageType.text, {quoted: message.data })
+    
+    }
+
 }     
     
 }))
