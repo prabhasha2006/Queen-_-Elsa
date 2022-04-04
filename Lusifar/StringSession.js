@@ -11,7 +11,7 @@ class StringSession {
     }
 
     deCrypt(string = undefined) {
-        if ('LELSA_SESSION' in process.env && string === undefined) {
+        if ('ELSA_SESSION' in process.env && string === undefined) {
             string = process.env.STRING_SESSION;
         } else if (string !== undefined) {
             if (fs.existsSync(string)) {
