@@ -29,7 +29,7 @@
         "WELCOME_GIF": {
             "description": "Fill here any gif link if you selected gif as WEELCOME",
             "required": false,
-            "value": "https://ibb.co/n0sJCXz"
+            "value": "https://i.ibb.co/PYZHQ2w/image-downloader-1648893120274.gif"
         },
         "LUSIFAR_AI": {	
             "description": "turn on chat back auto reply Elsa (use true to on and fale to off)",	
@@ -79,7 +79,7 @@
           "BYE_GIF": {
             "description": "Fill here any gif link if you selected gif as WEELCOME",
             "required": false,
-            "value": "https://ibb.co/0X7sD7B"
+            "value": "https://i.ibb.co/ZJj2LjH/image-downloader-1648893210626.gif"
         },
          "BGM_FILTER": {
             "description": "If you likes bgm you can write 'true'. Otherwise false",
