@@ -22,7 +22,7 @@ const got = require('got');
 const Language = require('./language');
 const Lang = Language.getString('updater');
 //sql
-const LUSIFARDB = config.DATABASE.define('LUSIFAR', {
+const LUSIFARDB = config.DATABASE.define('✮𝐐𝐮𝐞𝐞𝐧--𝐄𝐥𝐬𝐚✮', {
     info: {
       type: DataTypes.STRING,
       allowNull: false
@@ -131,7 +131,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
             chalk.blueBright.italic('⬇️  Installing plugins...')
         );
         console.log(
-            chalk.green.bold('Lusifar 𝚠𝚘𝚛𝚔𝚒𝚗𝚐 ' + config.WORKTYPE + ' 𝚗𝚘𝚠 👻'));
+            chalk.green.bold('🌀𝐐𝐮𝐞𝐞𝐧--𝐄𝐥𝐬𝐚👸 𝚠𝚘𝚛𝚔𝚒𝚗𝚐 ' + config.WORKTYPE + ' 𝚗𝚘𝚠 👻'));
 
         fs.readdirSync('./plugins').forEach(plugin => {
             if(path.extname(plugin).toLowerCase() == '.js') {
@@ -146,15 +146,15 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
                 if (commits.total === 0) {
                    
-                    var webimage = await axios.get(`https://telegra.ph/file/2b96f9eaba69490ae689d.jpg`, { responseType: 'arraybuffer' })
+                    var webimage = await axios.get(`https://i.ibb.co/n3GrNhS/20220404-180329.jpg`, { responseType: 'arraybuffer' })
                     await conn.sendMessage(conn.user.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg  , caption: '\n\n\n\n' + Lang.UPDATE +'\n\n\n\n\n\n *⚡powerd by lusifar*' })
-                    await conn.sendMessage(conn.user.jid, "Lusifar ɪꜱ ᴀʟʟ ꜱᴇᴛ", MessageType.text);
-                    await conn.sendMessage(conn.user.jid, "```Lusifar WORKING " + config.WORKTYPE + "```" , MessageType.text);
+                    await conn.sendMessage(conn.user.jid, "🌀𝐐𝐮𝐞𝐞𝐧--𝐄𝐥𝐬𝐚👸 ɪꜱ ᴀʟʟ ꜱᴇᴛ", MessageType.text);
+                    await conn.sendMessage(conn.user.jid, "```🌀𝐐𝐮𝐞𝐞𝐧--𝐄𝐥𝐬𝐚👸 WORKING " + config.WORKTYPE + "```" , MessageType.text);
                 
 //======================test to my number
-                 /*   await conn.sendMessage(config.LOGSETTINGS, '\n\n\n\n' + Lang.UPDATE +'\n\n\n\n\n\n *⚡powerd by lusifar*', MessageType.text);
-                    await conn.sendMessage(config.LOGSETTINGS, "Lusifar ɪꜱ ᴀʟʟ ꜱᴇᴛ", MessageType.text);
-                    await conn.sendMessage(config.LOGSETTINGS, "```Lusifar WORKING " + config.WORKTYPE + "```" , MessageType.text);
+                 /*   await conn.sendMessage(config.LOGSETTINGS, '\n\n\n\n' + Lang.UPDATE +'\n\n\n\n\n\n *💠powerd by 🌀𝐐𝐮𝐞𝐞𝐧--𝐄𝐥𝐬𝐚👸*', MessageType.text);
+                    await conn.sendMessage(config.LOGSETTINGS, "🌀𝐐𝐮𝐞𝐞𝐧--𝐄𝐥𝐬𝐚👸 ɪꜱ ᴀʟʟ ꜱᴇᴛ", MessageType.text);
+                    await conn.sendMessage(config.LOGSETTINGS, "```🌀𝐐𝐮𝐞𝐞𝐧--𝐄𝐥𝐬𝐚👸 " + config.WORKTYPE + "```" , MessageType.text);
                    
 var unique = conn.user.jid.split('@')[0]
 
@@ -168,14 +168,14 @@ var unique = conn.user.jid.split('@')[0]
                         }
                     );
                   
-                    var webimage = await axios.get(`https://telegra.ph/file/2b96f9eaba69490ae689d.jpg`, { responseType: 'arraybuffer' })
-                    await conn.sendMessage(conn.user.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg  , caption: newzelme + '```'+'\n\n *⚡powerd by ✮𝐐𝐔𝐄𝐄𝐍--𝐄𝐋𝐒𝐀✮*' })
+                    var webimage = await axios.get(`https://i.ibb.co/n3GrNhS/20220404-180329.jpg`, { responseType: 'arraybuffer' })
+                    await conn.sendMessage(conn.user.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg  , caption: newzelme + '```'+'\n\n *💠powerd by 🌀𝐐𝐮𝐞𝐞𝐧--𝐄𝐥𝐬𝐚👸*' })
 
                             await conn.sendMessage(conn.user.jid, "✮𝐐𝐔𝐄𝐄𝐍--𝐄𝐋𝐒𝐀✮ ɪꜱ ᴀʟʟ ꜱᴇᴛ", MessageType.text);
                             await conn.sendMessage(conn.user.jid, "``` WORKING " + config.WORKTYPE + "```" , MessageType.text);
 //==================================================
-                          /*  await conn.sendMessage(config.LOGSETTINGS, newzelme + '```'+'\n\n *⚡powerd by lusifar*', MessageType.text);
-                            await conn.sendMessage(config.LOGSETTINGS, "Lusifar ɪꜱ ᴀʟʟ ꜱᴇᴛ", MessageType.text);
+                          /*  await conn.sendMessage(config.LOGSETTINGS, newzelme + '```'+'\n\n *💠powerd by 🌀𝐐𝐮𝐞𝐞𝐧--𝐄𝐥𝐬𝐚👸*', MessageType.text);
+                            await conn.sendMessage(config.LOGSETTINGS, "🌀𝐐𝐮𝐞𝐞𝐧--𝐄𝐥𝐬𝐚👸 ɪꜱ ᴀʟʟ ꜱᴇᴛ", MessageType.text);
                             await conn.sendMessage(config.LOGSETTINGS, "``` WORKING " + config.WORKTYPE + "```" , MessageType.text);
                           */
 
