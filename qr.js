@@ -1,7 +1,7 @@
-/* Copyright (C) 2021 KAVIYAAH - Alexa Team  ,  Lusifar whatsapp bot owner
+/* Copyright (C) 2021 Prabhasha - Alexa Team  ,  Lusifar whatsapp bot owner
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-kaviyaah - kavishka sandaruwan (v 8.0.0 avalable)
+K.Prabhasha (v 8.0.0 avalable)
 */
 
 const chalk = require('chalk');
@@ -30,7 +30,7 @@ ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please Wait.')}`);
         );
         
         if (!fs.existsSync('config.env')) {
-            fs.writeFileSync('config.env', `LUSIFAR_SESSION="${st}"`);
+            fs.writeFileSync('config.env', `ELSA_SESSION="${st}"`);
         }
         if (conn.user.jid.startsWith('90')) {
             await conn.sendMessage(conn.user.jid,st, MessageType.text)
