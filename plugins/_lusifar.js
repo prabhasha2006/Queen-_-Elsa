@@ -10,8 +10,8 @@ const {MessageType} = require('@adiwajshing/baileys');
 const fs = require("fs")
 
 const Language = require('../language');
-const Lang = Language.getString('_elsa');
-const lusifarv = fs.readFileSync('./uploads/voicenew/lusifarv.mp3') 
+const Lang = Language.getString('_lusifar');
+const lusifarv = fs.readFileSync('./uploads/voicenew/elsav.mp3') 
 const lusicode = "👸🏻✮𝐐𝐮𝐞𝐞𝐧--𝐄𝐥𝐬𝐚✮👸🏻𝘾𝙤𝙢𝙢𝙖𝙣𝙙 *List*\n   \n════════════════════════\n    ✮𝐐𝐮𝐞𝐞𝐧--𝐄𝐥𝐬𝐚✮ *COMMANDS*\n 💠🌀❤️🌀🌀👸🏻🌀🌀❤️🌀💠\n            ✮✮✮𝐐𝐮𝐞𝐞𝐧--𝐄𝐥𝐬𝐚✮✮✮\n \n════════ ᴋ.ᴘʀᴀʙʜᴀsʜᴀ ═══════"
 const lucodeee = ("👸🏻✮𝐐𝐮𝐞𝐞𝐧--𝐄𝐥𝐬𝐚✮👸🏻𝘾𝙤𝙢𝙢𝙖𝙣𝙙 *List*\n \n┏•━•━•━•━•━•━•━•━•━•━•━•━•━•━•━•┓\n   "  +  Config.BOTPLK   +           "\n 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨.\n  💠🌀❤️🌀🌀👸🏻🌀🌀❤️🌀💠\n┃           ✮✮✮𝐐𝐮𝐞𝐞𝐧--𝐄𝐥𝐬𝐚✮✮✮          ┃\n┗•━•━•━•━•ᴋ.ᴘʀᴀʙʜᴀsʜᴀ•━•━•━•━•━•┛\n \n    ═══✰𝘼𝙇𝙇 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎✰═══\n \n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ")
 let WORKN = Config.WORKTYPE == 'public' ? false : true
