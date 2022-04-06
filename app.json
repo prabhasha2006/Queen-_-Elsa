@@ -9,7 +9,7 @@
     "stack": "container",
     "env": {
         "ELSA_SESSION": {
-            "description": "Qr.Js ile oluşturduğunuz özel session kodu. Type here yours Elsa Session.",
+            "description": "Check your own number inbox. Type here yours Elsa Session.",
             "required": true
         },
         "SUDO": {
@@ -17,7 +17,7 @@
             "required": false
         },
         "LANGUAGE": {
-            "description": "only en & ml language is available",
+            "description": "Type en for English, si for Sinhala , ml for Maley language",
             "required": true,
             "value": "en"
         },
