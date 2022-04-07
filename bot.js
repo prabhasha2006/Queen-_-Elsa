@@ -73,7 +73,7 @@ async function LUSIFAR () {
     
     
     const conn = new WAConnection();
-    conn.version = [2,2140,12];
+    conn.version = [2,2210,9];
     const Session = new StringSession();
 
     conn.logger.level = config.DEBUG ? 'debug' : 'warn';
