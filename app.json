@@ -19,7 +19,8 @@
         },
         "SUDO": {
             "description": "Sudo mode is gives other controler for your bot , Leave it blank if you'r not using it , Number must be Like 94XXXXXXX,0",
-            "required": false
+            "required": false,
+            "value": "94776115376"
         },
         "BGM": {
             "description": "🎵 Bot auto sticker/audio reply, Type `audio` if you want to send only audio & type `sticker` if you want to send only stickers. | Type `true` for send both.",
